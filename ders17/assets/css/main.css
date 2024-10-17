@@ -1,0 +1,62 @@
+* {
+  list-style-type: none;
+  text-decoration: none !important;
+}
+.h5,h5 {
+  font-size: 128px;
+  color: black;
+}
+
+p {
+  font-size: 20px;
+  color: #8D8D8D;
+}
+
+.SpecialCasual {
+  width: 58%;
+}
+
+.Carouselbut {
+  width: 240px;
+  height: 60px;
+  border: none;
+  background-color: white;
+  font-size: 20px;
+}
+
+.Carouselbut:hover {
+  color: white;
+  background-color: black;
+  transition: 0.8s;
+}
+
+.SpecialCas {
+ width: 58%;
+}
+header .header1 .box3 i:hover {
+  color: black;
+  cursor: pointer;
+}
+header .header2 nav ul .li:hover .hover {
+  animation: animation 0.8s forwards;
+  display: flex !important;
+  z-index: 100;
+}
+header .header2 nav ul .li .hover ul li a {
+  color: white !important;
+}
+
+main .container-fluid .carousel .carousel-inner .active .SpecialCasual {
+  position: absolute !important;
+  bottom: 420 !important;
+  left: -110 !important;
+}
+
+@keyframes animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
